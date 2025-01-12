@@ -2,8 +2,6 @@
 
 ## Run base.sh to install the essential softwares to the system
 
-## Run nvidia.sh to install drivers for NVIDIA GPUs
-
 ## Some other packages worth checking out:
 
 ### Hardware support
