@@ -65,7 +65,5 @@
     - powertop
     - python-pip
     - vault
-    - yay
-    - yay-debug
     - yelp
     - yubikey-manager
