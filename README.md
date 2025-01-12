@@ -1,6 +1,6 @@
 # arch-desktop
 
-## Run base.sh to install the essential softwares to the system
+## Run base.sh to install the essential packages to the system
 
 ## Some other packages worth checking out:
 
