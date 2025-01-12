@@ -14,5 +14,5 @@ pacman -S bash-completion firewalld man-db ntp sudo tree vim wget
 pacman -S htop neofetch openssh tcpdump chromium discord kate spectacle timeshift wireshark-qt
 
 # Install some fonts
-pacman -S noto-fonts-cjk noto-fonts-extra noto-fonts-sc noto-fonts-tc
+pacman -S noto-fonts-cjk noto-fonts-extra
 
