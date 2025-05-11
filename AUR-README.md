@@ -7,7 +7,5 @@
 ### Some useful packages
 - ttf-ms-win10-auto
 - chatterino2-git
-- davinci-resolve
 - noto-fonts-sc
 - noto-fonts-tc
-- tuxclocker
