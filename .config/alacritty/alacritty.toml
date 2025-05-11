@@ -1,0 +1,10 @@
+[font]
+size=15
+
+
+
+[mouse]
+bindings = [
+    { mouse = "Right",  action = "Paste" },
+    { mouse = "Left", action = "Copy" },
+]
