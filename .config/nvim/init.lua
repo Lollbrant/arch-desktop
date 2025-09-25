@@ -8,7 +8,7 @@ vim.opt.clipboard = "unnamedplus" -- use system clipboard
 vim.opt.showmatch = true -- show the matching brackets, curly braces or parenteses
 
 vim.opt.linebreak = true -- enable line breaking
-vim.opt.wrap = true -- text wrapping 
+vim.opt.wrap = true -- text wrapping
 vim.opt.termguicolors = true -- enable 24-bit RGB color in the TUI
 
 vim.opt.incsearch = true            -- search as characters are entered
@@ -32,16 +32,21 @@ vim.opt.listchars = {
 
 vim.opt.autoread = true
 vim.opt.cursorline = true
+vim.opt.scrolloff = 8
 vim.opt.autowrite = true
+vim.opt.colorcolumn = "90"
+vim.opt.signcolumn = "yes"
 
 vim.o.relativenumber = true
 vim.o.tabstop = 4
 vim.o.shiftwidth = 4
 vim.o.expandtab = true
 
+vim.g.mapleader = " "
+vim.keymap.set("n", "<leader>dir", vim.cmd.Ex)
 
 require("config.lazy")
-require("config/custom-commands")
+-- require("config/custom-commands")
 
 
 vim.cmd[[colorscheme tokyonight]]
