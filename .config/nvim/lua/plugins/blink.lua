@@ -34,14 +34,31 @@ return {
     },
 
     -- (Default) Only show the documentation popup when manually triggered
-    completion = { documentation = { auto_show = false } },
+    completion = {
+        documentation = {
+            auto_show = false
+        },
+        accept = {
+            auto_brackets = {
+                enabled = true
+            }
+        },
+        list = {
+            selection = {
+                preselect = false,
+                auto_insert = true
+            }
+        },
+        menu = {
+            auto_show = true
+        }
+    },
 
     -- Default list of enabled providers defined so that you can extend it
     -- elsewhere in your config, without redefining it, due to `opts_extend`
     sources = {
       default = { 'lsp', 'path', 'snippets', 'buffer' },
     },
-
     -- (Default) Rust fuzzy matcher for typo resistance and significantly better performance
     -- You may use a lua implementation instead by using `implementation = "lua"` or fallback to the lua implementation,
     -- when the Rust fuzzy matcher is not available, by using `implementation = "prefer_rust"`
